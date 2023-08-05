@@ -1,9 +1,11 @@
 import React from "react";
+import { Navbar, SignUp } from "./components/index";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+      <SignUp />
+      {/* <Navbar /> */}
     </div>
   );
 }
